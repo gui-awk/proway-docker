@@ -1,0 +1,14 @@
+## NÃO ESTÁ PRONTO, VOU PRECISAR FAZER NO DIA 05/11 DEPOIS DO TRABALHO, ANTES DISSO NÃO VAI DAR :)
+name: Make (não pronto)
+
+on:
+  push:
+    branches: [main]   # roda quando o PR é mergeado na main
+  workflow_dispatch:    # permite rodar manualmente
+
+jobs:
+  run-make:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make aws-deploy   # troque por "make" ou outro target se quiser
