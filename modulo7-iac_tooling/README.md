@@ -98,5 +98,9 @@ O Terraform provisiona/usa:
 * EC2 Ubuntu com Docker via user_data
 * Key Pair gerado pelo Terraform (tls_private_key + aws_key_pair)
 * Outputs: IP público e URL da aplicação
+* Porta 22 liberada para acesso do useradmin
+
+### Teste a segurança:
+* Faça um nmap para o IP que aparecer no output do terraform e verifique se está aberto apenas a porta 8080 e 22.
 
 A aplicação roda na porta 8080 da VM. Use o output `app_url` após `terraform apply`.
