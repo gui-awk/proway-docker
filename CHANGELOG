@@ -1,0 +1,22 @@
+# Changelog
+
+## v1.0.0 - 2025-11-13
+
+- Merge pull request #2 from gui-awk/feature/001-gh-actions-workflow
+- feature: atualização no arquivo main.yml do workflow
+- Merge pull request #1 from gui-awk/docs/001-dockerfile-documentation
+- docs: documentação no dockerfile
+- Refatoração workflow para incluir mensagens a cada etapa
+- Alterações workflow
+- Adicionado workflow simples, ainda em construção.
+- Adicionado instrução de teste ao final do readme.md
+- Atualização do readme.md para compreensão da nova infraestrutura do serviço
+- Documentação do projeto atualizada para compreensão da nova infraestrutura do serviço.
+- feature: ajustado para usar vpc-modulo9 e alterado nome do sg que estava em uso
+- Alterações no makefile para AWS
+- build: Alteração do provedor Azure para AWS
+- build: validated structure
+- modulo 7 + modulo 9
+- feat: add desafio Modulo7
+- chore(init): first commit
+
